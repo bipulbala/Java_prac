@@ -1,0 +1,29 @@
+import java.util.*;
+class Array2 {
+    public static void main(String[] args) {
+        int i, j, k, l,tmp;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the lenght :");
+        int n = sc.nextInt();
+        int arr[]= new int[n];
+         System.out.println("enter elements :");
+        for(k=0; k<n; k++){
+            arr[k] = sc.nextInt();
+        }
+        
+        for(i=0; i<n-1; i++){
+            for(j=0; j<n-i-1; j++){
+                if(arr[j]>arr[j+1]){
+                    tmp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] =tmp;
+                }
+            }
+        }
+        System.out.println("sorted array is :");
+        for(l=0; l<n; l++){
+            System.out.println(arr[l]);
+        }
+        
+    }
+}
