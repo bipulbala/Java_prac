@@ -1,0 +1,33 @@
+Class Fan{
+ 	
+	String brand;
+	String colour;
+	int blades;
+ 	Float price;
+		
+
+void Starting(){
+
+};
+void bloinAir(){
+
+}
+boolean rotation(){
+
+};
+boolean stopping(){
+
+}
+
+main  method(){
+
+Fan f1 = new Fan();
+f1.starting();
+f1.rotation();
+
+Fan f2 = new Fan();
+f2.rotation();
+}
+
+}
+
