@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class AreaofCircle {
-    double pie = Math.PI; // It gives more accurate results.
+    double pie = Math.PI; // It provides more accurate results.
    public static void main(String[] args) {
        
       try (Scanner sc = new Scanner(System.in)) {
